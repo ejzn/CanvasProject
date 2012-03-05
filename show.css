@@ -1,0 +1,55 @@
+
+/*
+ * Show.css - styling for the slideshow presentation
+ */
+
+* { margin: 0; padding: 0;}
+
+body{ 
+
+	height:100%;
+	margin-top:0px; 
+	overflow:hidden;
+	}
+
+canvas#show{
+	display: block;	
+	border: 1px solid #333;
+}
+
+div#slide{
+	top:200px;
+	left:400px;
+	position:absolute;
+	width:400px;
+	height:250px;
+	float:left;
+	border:2px solid #333;
+}
+div#slide-text{
+	height:80px;
+	position:relative;
+	top:40px;
+	margin:15px;
+	border:2px dashed #aaa;
+}
+
+div#audio-controls{
+	position:absolute;
+	width:120px;
+	height:40px;
+	bottom:0px;
+	left:30px;
+}
+
+#play:hover{
+	margin-bottom:3px;
+}
+#pause:hover{
+	margin-bottom:3px;
+}
+
+img.audio-control-images{
+	width:30px;
+	height:30px;
+}
